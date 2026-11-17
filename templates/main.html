@@ -2,12 +2,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" herf=""{{ url_for('static', filename='style.css')}}>
 </head>
+
 <body>
     <div class="container">
         <h2>Main</h2>
+
         <form action="/dbs" method="post">
             <input type="submit" value="DBS Price Prediction">
         </form>
+        
         <form action="/" method="post">
             <input type="submit" value="Exit">
         </form>
