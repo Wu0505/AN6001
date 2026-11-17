@@ -1,11 +1,15 @@
 <head>
-    
+    <meta name="viewport" content="width=device=-width, initial-scale=1.0">
+    <link rel="stylesheet" herf=""{{ url_for('static', filename='style.css')}}>
 </head>
 
 <body>
     <div class="container">
-        <h1>Tech Otacku Save the World</h1>
-
+        <h2>AI Web Application</h2>
+        <form action="/main" method="post">
+            <h4>Please enter your name</h4>
+            <input type="text" name="q">
+            <input type="submit" value="Enter">
+        <form>
     </div>
-  
 </body>
